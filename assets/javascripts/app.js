@@ -38,7 +38,7 @@
         {
           latitude: 44.447924,
           longitude: 26.097879,
-          title: 'ROSEdu: Romanian Open Source Education'
+          title: 'ROSEdu: Romanian Open Source Education, București Linux User Group'
         },
         {
           latitude: 44.173414,
@@ -59,11 +59,6 @@
           latitude: 47.664164,
           longitude: 23.578962,
           title: 'Baia Mare Linux User Group'
-        },
-        {
-          latitude: 44.447924,
-          longitude: 26.097879,
-          title: 'București Linux User Group'
         },
         {
           latitude: 45.443506,
