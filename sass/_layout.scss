@@ -1,0 +1,73 @@
+/**
+ * Main Layout
+ */
+
+a:link {
+  color: $secondaryColor;
+}
+
+a:hover, a:visited {
+  color: $secondaryColor;
+  text-decoration: underline;
+}
+
+header {
+  background: $mainColor;
+
+  .branding {
+    text-align: center;
+    background: transparent url('/assets/images/logo.png') no-repeat top center;
+    margin-top: 40px;
+    padding: 60px 0 20px;
+
+    h2, h5 {
+      color: $white;
+      font-weight: 300;
+    }
+  }
+}
+
+#container {
+  .mapit {
+    height: 500px;
+  }
+
+  .above-map {
+    .columns {
+      height: 0;
+      position: relative;
+      top: -400px;
+
+      h4 {
+        color: $secondaryColor;
+        padding: 20px;
+        background: $white;
+        background: rgba(255, 255, 255, 0.9);
+      }
+    }
+  }
+
+  h4 {
+    font-weight: 300;
+    position: relative;
+    z-index: 10;
+  }
+}
+
+footer {
+  padding-top: 20px;
+  padding-bottom: 40px;
+
+  .spre-dreapta {
+    text-align: right;
+  }
+
+  .drag {
+    color: $secondaryColor;
+  }
+
+  .faded {
+    color: $mainColor;
+    font-size: 90%;
+  }
+}
